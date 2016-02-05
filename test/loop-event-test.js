@@ -50,7 +50,7 @@ describe('loop event test', function () {
         event.on("allDone", function () {
             done();
         });
-        loopdir(root, root);
+        loopdir(root, event);
     });
 
 });
