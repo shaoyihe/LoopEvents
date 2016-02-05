@@ -1,11 +1,32 @@
 {
   "name": "loop-events",
-  "version": "0.1.0",
-  "description": "",
+  "version": "0.2.2",
+  "description": "multiple event for eventemit",
+  "keywords": [
+    "loop-events",
+    "LoopEvents",
+    "multiple event",
+    "EventEmit"
+  ],
+  "bugs": {
+    "url": "https://github.com/shaoyihe/LoopEvents/issues",
+    "email": "wubuqilai@gmail.com"
+  },
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/*.js"
   },
-  "author": "shaoyihe",
-  "license": "MIT"
+  "author": {
+    "name": "shaoyihe",
+    "email": "wubuqilai@gmail.com",
+    "url": "http://shaoyihe.github.io/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaoyihe/LoopEvents"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
